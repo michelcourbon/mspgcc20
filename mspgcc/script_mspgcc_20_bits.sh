@@ -1,4 +1,13 @@
-#Install pre-requisites
+#!/bin/bash
+
+# before execute this macro.. 
+#    see at the url http://sourceforge.net/projects/mspgcc/files/mspgcc/DEVEL-4.7.x/
+#    to control latest version ....... and if this release are up to date
+
+
+#Install linux software package pre-requisites
+echo '************************************************'
+echo '***     linux package before installation   ****'
 sudo apt-get update
 sudo apt-get install make wget patch git texinfo libncurses5-dev zlibc zlib1g-dev libx11-dev libusb-dev libreadline6-dev flex
 
@@ -32,7 +41,7 @@ cd ..
 
 echo '---------------------------------'
 echo '---       binutils           ----'
-echp '--- press any key to continue ---'
+echo '--- press any key to continue ---'
 read test
 # patch binutils
 cd binutils-2.22
@@ -54,12 +63,12 @@ cd binutils-2.22-msp430
 ../binutils-2.22/configure --target=msp430 --program-prefix="msp430-"
 make
 # Do the install as root (e.g., sudo)
-echo'----------- be carefull : enter the password -------------'
+echo '----------- be carefull : enter the password -------------'
 sudo make install
 
 echo '---------------------------------'
 echo '---    gcc compilation       ----'
-echp '--- press any key to continue ---'
+echo '--- press any key to continue ---'
 read test
 #Configure GCC
 cd ../gcc-4.7.0-msp430
@@ -68,6 +77,11 @@ make
 # Do the install as root (e.g., sudo)
 echo'----------- be carefull : enter the password -------------'
 sudo make install
+
+echo '-----------------------------------------'
+echo '---  install msp430mcu & mspgcc-libc  ---'
+echo '---  press any key to continue        ---'
+read test
 
 #Install the mspgcc-mcu files
 cd ../msp430mcu-20120606
