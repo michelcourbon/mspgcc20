@@ -2,6 +2,7 @@ mspgcc 20 bits & tools for wismote devices
 ==========================================
 
 wismote V1 tools (see aragosystem for this device : thanks to T. Chapelle and co from Arago systems)
+be carefull.. at this moment.. sky platform bug.. and compilation error : processor unhandled !!!!!
 
 - mspgcc 20 bits  installation for linux in instant-contiki VM
 tools compilation OK in instant contiki 2.6.. but carefull, test todo!!!
