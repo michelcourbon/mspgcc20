@@ -12,8 +12,8 @@ sudo apt-get update
 sudo apt-get install make wget patch git texinfo libncurses5-dev zlibc zlib1g-dev libx11-dev libusb-dev libreadline6-dev flex
 
 # to update verify the project's date on sourceforge
-BINUTILDate=20120716
-GCCDate=20120716
+BINUTILDate=20120911
+GCCDate=20120911
 MCUDate=20120716
 LIBCDate=20120716
 
