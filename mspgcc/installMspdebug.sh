@@ -8,7 +8,7 @@ echo '************************************************'
 echo ' WiSMote Contiki tools - mspdebug installation  '
 echo '************************************************'
 
-MSPDEBUG_VERSION=0.19
+MSPDEBUG_VERSION=0.20
 
 wget http://sourceforge.net/projects/mspdebug/files/mspdebug-$MSPDEBUG_VERSION.tar.gz
 tar -xvzf mspdebug-$MSPDEBUG_VERSION.tar.gz 
