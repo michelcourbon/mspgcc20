@@ -12,10 +12,11 @@ for help on 20 bits compilation see at mspgcc wiki..
 in test.. 
 be carefull.. at this moment.. 
 - sky platform bug.. and compilation error : processor unhandled !!!!!
-- wismote collect-view don't work !!!
 
-but usefull without
-- work with instant contiki VM 2.6 
-- tools for BSL and wismote V1 devices
+mspgcc works now
+- with instant contiki VM 2.6
+- with xubuntu 12.10 
+
+some tools for BSL and wismote V1 devices
  
 in future.. many examples & contiki code
